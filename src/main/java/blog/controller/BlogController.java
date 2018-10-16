@@ -118,5 +118,16 @@ public class BlogController extends BaseController {
 		Blog blog= blogService.selectByPrimaryKey(blogId);
 		return AjaxResult.getOK(blog);
 	}
+
+	/**
+	 * 获取博客列表
+	 * @param blogId
+	 * @return
+	 */
+	@ResponseBody
+	@RequestMapping(value="/getBlogList",method=RequestMethod.GET)
+	public void getBlogList(Integer blogId){
+
+	}
 }
 
