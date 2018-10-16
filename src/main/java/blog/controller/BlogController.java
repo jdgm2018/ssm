@@ -83,7 +83,7 @@ public class BlogController extends BaseController {
 	}
 	/**
 	 * 获取博客列表
-	 * @param blogId
+	 * @param
 	 * @param request
 	 * @return
 	 */
@@ -99,6 +99,8 @@ public class BlogController extends BaseController {
 				blogDetailsList=blogService.getUserBlogList(userId);
 			}
 		}else {
+
+
 			blogDetailsList=blogService.getUserBlogList(id);
 		};
 		
@@ -107,7 +109,7 @@ public class BlogController extends BaseController {
 	/**
 	 * 获取博客详情
 	 * @param blogId
-	 * @param request
+	 * @param
 	 * @return
 	 */
     @ResponseBody
