@@ -216,4 +216,15 @@ public class UserController extends BaseController {
 		userService.addRole(roleName);
 		return AjaxResult.getOK();
 	}
+
+	/**
+	 * 获取博客列表
+	 * @param
+	 * @return
+	 */
+	@ResponseBody
+	@RequestMapping(value="/getRoleList",method=RequestMethod.GET)
+	public void getRoleList(){
+
+	}
 }

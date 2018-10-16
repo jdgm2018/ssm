@@ -121,12 +121,12 @@ public class BlogController extends BaseController {
 
 	/**
 	 * 获取博客列表
-	 * @param blogId
+	 * @param
 	 * @return
 	 */
 	@ResponseBody
 	@RequestMapping(value="/getBlogList",method=RequestMethod.GET)
-	public void getBlogList(Integer blogId){
+	public void getBlogList(){
 
 	}
 }
